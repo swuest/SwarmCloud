@@ -1,0 +1,90 @@
+{
+  "offers": [
+    {
+      "host": {"value": "TU KL", "compareOperator": "eq"},
+      "ontology_version": {"value": 1.1, "compareOperator": "leq"},
+      "repository_version": {"value": 2.1, "compareOperator": "leq"},
+      "timeout": {"value": 1000,"compareOperator":"leq"},
+      "cpu": {
+        "manufacturer":{"value": "AMD", "compareOperator": "eq"},
+        "amount": {"value": 4, "compareOperator": "eq"},
+        "frequency":{"value": 3.0, "magnitude": {"magnitude": "giga"}, "compareOperator": "eq"},
+        "instruction_set": [
+          {"value":"MMX"},
+          {"value":"SSE"},
+          {"value":"SSE4_2"}
+        ]
+      },
+      "memory": {
+        "size": {"value": 4, "magnitude": {"magnitude": "giga"}, "compareOperator": "leq"},
+        "generation": {"value":"DDRRAM"}
+      },
+      "operating_system": {
+        "system_type": {"value": "Linux"},
+        "repository": {"value": "Ubuntu 16.04"},
+        "version": {"value": "16.04"},
+        "custom_template": true
+      }
+    },
+    {
+      "host": {"value": "TU KL", "compareOperator": "eq"},
+      "ontology_version": {"value": 1.1, "compareOperator": "leq"},
+      "repository_version": {"value": 2.1, "compareOperator": "leq"},
+      "timeout": {"value": 1000,"compareOperator":"leq"},
+      "cpu": {
+        "manufacturer":{"value": "AMD", "compareOperator": "eq"},
+        "amount": {"value": 4, "compareOperator": "eq"},
+        "frequency":{"value": 3.0, "magnitude": {"magnitude": "giga"}, "compareOperator": "eq"},
+        "instruction_set": [
+          {"value":"MMX"},
+          {"value":"SSE"},
+          {"value":"SSE4_2"},
+          {"value":"AES"}
+        ]
+      },
+      "memory": {
+        "size": {"value": 4, "magnitude": {"magnitude": "giga"}, "compareOperator": "leq"},
+        "generation": {"value":"DDR4RAM"}
+      },
+      "operating_system": {
+        "system_type": {"value": "Linux"},
+        "repository": {"value": "Ubuntu 16.04"},
+        "version": {"value": "16.04"},
+        "custom_template": true
+      }
+    },
+    {
+      "host": {"value": "TU KL", "compareOperator": "eq"},
+      "ontology_version": {"value": 1.1, "compareOperator": "leq"},
+      "repository_version": {"value": 2.1, "compareOperator": "leq"},
+      "timeout": {"value": 1000,"compareOperator":"leq"},
+      "cpu": {
+        "manufacturer":{"value": "Intel", "compareOperator": "eq"},
+        "amount": {"value": 4, "compareOperator": "eq"},
+        "frequency":{"value": 3.0,  "magnitude": {"magnitude": "giga"}, "compareOperator": "eq"},
+        "instruction_set": []
+      },
+      "memory": {
+        "size": {"value": 4,  "magnitude": {"magnitude": "giga"}, "compareOperator": "leq"},
+        "generation": {"value":"DDR4RAM"}
+      },
+      "disk": [
+        {
+          "diskType": {"value":"SSD"},
+          "size": {"value":512, "magnitude":{"magnitude":"mega"}, "compareOperator": "geq"},
+          "performance":
+          {
+            "read_performance": {"value":512, "magnitude":{"magnitude":"mega"}, "compareOperator": "geq"},
+            "write_performance": {"value":512, "magnitude":{"magnitude":"mega"}, "compareOperator": "geq"}
+          }
+        }
+      ],
+      "operating_system": {
+        "system_type": {"value": "Linux"},
+        "repository": {"value": "Ubuntu 16.04"},
+        "version": {"value": "16.04"},
+        "custom_template": true
+      }
+    }
+  ]
+}

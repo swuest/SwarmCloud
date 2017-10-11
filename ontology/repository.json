@@ -1,0 +1,630 @@
+{
+  "magnitude": [
+    {
+      "magnitude": "pico",
+      "id": 0
+    },
+    {
+      "magnitude": "nano",
+      "id": 1
+    },
+    {
+      "magnitude": "micro",
+      "id": 2
+    },
+    {
+      "magnitude": "milli",
+      "id": 3
+    },
+    {
+      "magnitude": "kilo",
+      "id": 4
+    },
+    {
+      "magnitude": "mega",
+      "id": 5
+    },
+    {
+      "magnitude": "giga",
+      "id": 6
+    },
+    {
+      "magnitude": "tera",
+      "id": 7
+    },
+    {
+      "magnitude": "peta",
+      "id": 8
+    }
+  ],
+  "operating_system": {
+    "system_type": [
+      {
+        "value": "Unix",
+        "id": 0
+      },
+      {
+        "value": "BSD",
+        "id": 1
+      },
+      {
+        "value": "macOS",
+        "id": 2
+      },
+      {
+        "value": "Linux",
+        "id": 3
+      },
+      {
+        "value": "Chrome OS",
+        "id": 4
+      },
+      {
+        "value": "Microsoft Windows",
+        "id": 5
+      }
+    ]
+  },
+  "cpu": {
+    "manufacturer": [
+      {
+        "value": "Intel",
+        "id": 0
+      },
+      {
+        "value": "AMD",
+        "id": 1
+      },
+      {
+        "value": "IBM",
+        "id": 2
+      },
+      {
+        "value": "ARM",
+        "id": 3
+      }
+    ],
+    "frequency": [
+      {
+        "value": 1.0,
+        "id": 0
+      },
+      {
+        "value": 1.1,
+        "id": 1
+      },
+      {
+        "value": 1.2,
+        "id": 2
+      },
+      {
+        "value": 1.3,
+        "id": 3
+      },
+      {
+        "value": 1.4,
+        "id": 4
+      },
+      {
+        "value": 1.5,
+        "id": 5
+      },
+      {
+        "value": 1.6,
+        "id": 6
+      },
+      {
+        "value": 1.7,
+        "id": 7
+      },
+      {
+        "value": 1.8,
+        "id": 8
+      },
+      {
+        "value": 1.9,
+        "id": 9
+      },
+      {
+        "value": 2.0,
+        "id": 10
+      },
+      {
+        "value": 2.1,
+        "id": 11
+      },
+      {
+        "value": 2.2,
+        "id": 12
+      },
+      {
+        "value": 2.3,
+        "id": 13
+      },
+      {
+        "value": 2.4,
+        "id": 14
+      },
+      {
+        "value": 2.5,
+        "id": 15
+      },
+      {
+        "value": 2.6,
+        "id": 16
+      },
+      {
+        "value": 2.7,
+        "id": 17
+      },
+      {
+        "value": 2.8,
+        "id": 18
+      },
+      {
+        "value": 2.9,
+        "id": 19
+      },
+      {
+        "value": 3.0,
+        "id": 20
+      },
+      {
+        "value": 3.1,
+        "id": 21
+      },
+      {
+        "value": 3.2,
+        "id": 22
+      },
+      {
+        "value": 3.3,
+        "id": 23
+      },
+      {
+        "value": 3.4,
+        "id": 24
+      },
+      {
+        "value": 3.5,
+        "id": 25
+      },
+      {
+        "value": 3.6,
+        "id": 26
+      },
+      {
+        "value": 3.7,
+        "id": 27
+      },
+      {
+        "value": 3.8,
+        "id": 28
+      },
+      {
+        "value": 3.9,
+        "id": 29
+      },
+      {
+        "value": 4.0,
+        "id": 30
+      },
+      {
+        "value": 4.1,
+        "id": 31
+      },
+      {
+        "value": 4.2,
+        "id": 32
+      },
+      {
+        "value": 4.3,
+        "id": 33
+      },
+      {
+        "value": 4.4,
+        "id": 34
+      },
+      {
+        "value": 4.5,
+        "id": 35
+      },
+      {
+        "value": 4.6,
+        "id": 36
+      },
+      {
+        "value": 4.7,
+        "id": 37
+      },
+      {
+        "value": 4.8,
+        "id": 38
+      },
+      {
+        "value": 4.9,
+        "id": 39
+      },
+      {
+        "value": 5.0,
+        "id": 40
+      }
+    ],
+    "instruction_set": [
+      {
+        "value": "MMX",
+        "id": 0
+      },
+      {
+        "value": "SSE",
+        "id": 1
+      },
+      {
+        "value": "SSE2",
+        "id": 2
+      },
+      {
+        "value": "SSE3",
+        "id": 3
+      },
+      {
+        "value": "SSSE3",
+        "id": 4
+      },
+      {
+        "value": "SSE4a",
+        "id": 5
+      },
+      {
+        "value": "SSE4_1",
+        "id": 6
+      },
+      {
+        "value": "SSE4_2",
+        "id": 7
+      },
+      {
+        "value": "AVX",
+        "id": 8
+      },
+      {
+        "value": "AVX2",
+        "id": 9
+      },
+      {
+        "value": "FMA3",
+        "id": 10
+      },
+      {
+        "value": "F16C",
+        "id": 11
+      },
+      {
+        "value": "AES",
+        "id": 12
+      },
+      {
+        "value": "AES_NI",
+        "id": 13
+      },
+      {
+        "value": "BMI1",
+        "id": 14
+      },
+      {
+        "value": "BMI2",
+        "id": 15
+      }
+    ]
+  },
+  "memory": {
+    "size": [
+      {
+        "id": 0,
+        "value": 0.50
+      },
+      {
+        "id": 1,
+        "value": 0.75
+      },
+      {
+        "id": 2,
+        "value": 1.00
+      },
+      {
+        "id": 3,
+        "value": 1.25
+      },
+      {
+        "id": 4,
+        "value": 1.50
+      },
+      {
+        "id": 5,
+        "value": 1.75
+      },
+      {
+        "id": 6,
+        "value": 2.00
+      },
+      {
+        "id": 7,
+        "value": 2.25
+      },
+      {
+        "id": 8,
+        "value": 2.50
+      },
+      {
+        "id": 9,
+        "value": 2.75
+      },
+      {
+        "id": 10,
+        "value": 3.00
+      },
+      {
+        "id": 11,
+        "value": 3.25
+      },
+      {
+        "id": 12,
+        "value": 3.50
+      },
+      {
+        "id": 13,
+        "value": 3.75
+      },
+      {
+        "id": 14,
+        "value": 4.00
+      },
+      {
+        "id": 15,
+        "value": 4.25
+      },
+      {
+        "id": 16,
+        "value": 4.50
+      },
+      {
+        "id": 17,
+        "value": 4.75
+      },
+      {
+        "id": 18,
+        "value": 5.00
+      },
+      {
+        "id": 19,
+        "value": 5.25
+      },
+      {
+        "id": 20,
+        "value": 5.50
+      },
+      {
+        "id": 21,
+        "value": 5.75
+      },
+      {
+        "id": 22,
+        "value": 6.00
+      },
+      {
+        "id": 23,
+        "value": 6.25
+      },
+      {
+        "id": 24,
+        "value": 6.50
+      },
+      {
+        "id": 25,
+        "value": 6.75
+      },
+      {
+        "id": 26,
+        "value": 7.00
+      },
+      {
+        "id": 27,
+        "value": 7.25
+      },
+      {
+        "id": 28,
+        "value": 7.50
+      },
+      {
+        "id": 29,
+        "value": 7.75
+      },
+      {
+        "id": 30,
+        "value": 8.00
+      },
+      {
+        "id": 31,
+        "value": 8.25
+      },
+      {
+        "id": 32,
+        "value": 8.50
+      },
+      {
+        "id": 33,
+        "value": 8.75
+      },
+      {
+        "id": 34,
+        "value": 9.00
+      },
+      {
+        "id": 35,
+        "value": 9.25
+      },
+      {
+        "id": 36,
+        "value": 9.50
+      },
+      {
+        "id": 37,
+        "value": 9.75
+      },
+      {
+        "id": 38,
+        "value": 10.00
+      },
+      {
+        "id": 39,
+        "value": 10.25
+      },
+      {
+        "id": 40,
+        "value": 10.50
+      },
+      {
+        "id": 41,
+        "value": 10.75
+      },
+      {
+        "id": 42,
+        "value": 11.00
+      },
+      {
+        "id": 43,
+        "value": 11.25
+      },
+      {
+        "id": 44,
+        "value": 11.50
+      },
+      {
+        "id": 45,
+        "value": 11.75
+      },
+      {
+        "id": 46,
+        "value": 12.00
+      },
+      {
+        "id": 47,
+        "value": 12.25
+      },
+      {
+        "id": 48,
+        "value": 12.50
+      },
+      {
+        "id": 49,
+        "value": 12.75
+      },
+      {
+        "id": 50,
+        "value": 13.00
+      },
+      {
+        "id": 51,
+        "value": 13.25
+      },
+      {
+        "id": 52,
+        "value": 13.50
+      },
+      {
+        "id": 53,
+        "value": 13.75
+      },
+      {
+        "id": 54,
+        "value": 14.00
+      },
+      {
+        "id": 55,
+        "value": 14.25
+      },
+      {
+        "id": 56,
+        "value": 14.50
+      },
+      {
+        "id": 57,
+        "value": 14.75
+      },
+      {
+        "id": 58,
+        "value": 15.00
+      },
+      {
+        "id": 59,
+        "value": 15.25
+      },
+      {
+        "id": 60,
+        "value": 15.50
+      },
+      {
+        "id": 61,
+        "value": 15.75
+      },
+      {
+        "id": 62,
+        "value": 16.00
+      }
+    ],
+    "generation": [
+      {
+        "value": "DDRRAM",
+        "id": 0
+      },
+      {
+        "value": "DDR2RAM",
+        "id": 1
+      },
+      {
+        "value": "DDR3RAM",
+        "id": 2
+      },
+      {
+        "value": "DDR4RAM",
+        "id": 3
+      }
+    ]
+  },
+  "disk": {
+    "disk_type": [
+      {
+        "value": "HDD",
+        "id": 0
+      },
+      {
+        "value": "SSD",
+        "id": 1
+      }
+    ]
+  },
+  "virtualization": {
+    "virtualization_type": [
+      {
+        "value": "Hardware virtualization",
+        "id": 0
+      },
+      {
+        "value": "Desktop virtualization",
+        "id": 1
+      },
+      {
+        "value": "Operating system-level virtualization",
+        "id": 2
+      },
+      {
+        "value": "Application virtualization",
+        "id": 3
+      },
+      {
+        "value": "Storage virtualization",
+        "id": 4
+      }
+    ]
+  }
+}

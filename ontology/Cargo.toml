@@ -1,0 +1,10 @@
+[package]
+name = "swarmcloud_ontology"
+version = "1.0.0"
+authors = ["swuest <s_wuest10@cs.uni-kl.de>"]
+
+[dependencies]
+serde = "1.0.8"
+rmp-serde = "0.13.6"
+serde_json = "1.0.2"
+serde_derive = "1.0.8"
